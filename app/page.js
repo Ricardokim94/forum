@@ -5,7 +5,8 @@ export default async function Home() {
 //DB connection 하는 법
 const db = (await connectDB).db("forum")
 let result = await db.collection('post').find().toArray()
-console.log(result)
+
+
   return (
     <div>안녕</div>
   );
