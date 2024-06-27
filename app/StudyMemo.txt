@@ -1,0 +1,7 @@
+# dynamic route 만들기
+    - [폴더명] 으로 만듬 / 그 밑에 page.js 하면
+      -> []이 부분에 아무거나 입력했을때 이 page.js 보여주세요 라는 뜻임.
+      ex) detail/1 이나 detail/2나 이 page.js 보여준다.
+      = 폴더를 여러개 만들 필요가 없다.
+    
+    
