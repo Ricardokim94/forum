@@ -23,3 +23,51 @@ body{
     color: grey;
     margin : 5px 0px;
   } 
+
+  /* styles/globals.css */
+.detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.detail-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+.detail-content {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #666;
+}
+.detail-header {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #555;
+}
+
+
+/* styles/globals.css */
+.home-button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get it to display inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.home-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

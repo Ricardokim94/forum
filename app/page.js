@@ -8,6 +8,10 @@ let result = await db.collection('post').find().toArray()
 
 
   return (
-    <div>안녕</div>
+    <div>
+      <h1>
+        Main Page Test
+      </h1>
+    </div>
   );
 }
