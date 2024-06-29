@@ -1,4 +1,5 @@
 import { connectDB } from "@/util/database";
+import Link from 'next/link';
 
 export default async function List() {
 
@@ -13,6 +14,7 @@ export default async function List() {
             {result.map((post, index) => (
                 <div className="list-item" key={index}>
                     <h4>{post.title}</h4>
+                    <Link href={'/detail/' + result[index]._id}>링크</Link>
                     <p>{post.content}</p>
                 </div>
             ))}
