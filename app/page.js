@@ -10,7 +10,7 @@ let result = await db.collection('post').find().toArray()
   return (
     <div>
       <h1>
-        Main Page Test
+        Changmok's Test Main Page 
       </h1>
     </div>
   );

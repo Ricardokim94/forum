@@ -12,9 +12,10 @@ export default async function Edit(props){ //props는 현재 URL에 입력한 �
 
     //////글 수정//////        
     //updateOne({수정할게시물정보}, {set : {수정할내용}})
-    await db.collection('post').updateOne({}, {set :{
+    let modified = await db.collection('post').updateOne({}, {set :{
         title : 'TEST', content : 'TEST입니다.'
     }}) 
+    console.log('modified : ', modified);
 
     
 
