@@ -19,10 +19,10 @@ export default async function UserList() {
             <div className="list-bg">
                 {result.map((User, index) => (
                     <div className="list-item" key={index}>
-                        <Link href={'/userDetail/' + result[index]._id}>
+                        <h3>ID :</h3> <Link href={'/userDetail/' + result[index]._id}>
                             <h4>{User.ID}</h4>
                         </Link>
-                        <p>{User.PW}</p>
+                        <h3>PW :</h3>     <p>{User.PW}</p>
                     </div>
                 ))}
             </div>

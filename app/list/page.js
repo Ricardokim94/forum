@@ -19,10 +19,14 @@ export default async function List() {
             <div className="list-bg">
                 {result.map((post, index) => (
                     <div className="list-item" key={index}>
-                        <Link href={'/detail/' + result[index]._id}>
-                            <h4>{post.title}</h4>
-                        </Link>
-                        <p>{post.content}</p>
+                        {/* title */}
+                            <Link href={'/detail/' + result[index]._id}>
+                                <h4>{post.title}</h4>
+                            </Link>
+                        {/* contents */}
+                            <p>{post.content}</p> 
+                        {/* modified */}
+                            <Link href={'/edit/' + result[index]._id}>✏️</Link>
                     </div>
                 ))}
             </div>
