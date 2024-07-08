@@ -27,7 +27,7 @@ export default async function List() {
                             <p>{post.content}</p> 
                         {/* modified */}
                             <Link href={'/edit/' + result[index]._id}>✏️</Link>
-                    </div>
+                    </div> 
                 ))}
             </div>
         </>
